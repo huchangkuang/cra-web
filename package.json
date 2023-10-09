@@ -1,6 +1,6 @@
 {
   "name": "cra-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CRA template with typescript sass and much more already configured",
   "main": "index.js",
   "author": "qingzhou",
