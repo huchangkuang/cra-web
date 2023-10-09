@@ -1,0 +1,28 @@
+{
+  "name": "cra-web",
+  "version": "1.0.0",
+  "description": "CRA template with typescript sass and much more already configured",
+  "main": "index.js",
+  "author": "qingzhou",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "8.0.0"
+  }
+}
