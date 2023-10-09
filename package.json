@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "qingzhou",
   "license": "MIT",
+  "repository": "git@github.com:huchangkuang/cra-web.git",
   "bin": {
     "cra-web": "cli.js"
   },
