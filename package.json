@@ -12,22 +12,6 @@
   "files": [
     "*.js"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "devDependencies": {
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "prettier": "^3.0.3"
-  },
   "dependencies": {
     "commander": "^11.0.0",
     "download-git-repo": "^3.0.2",
